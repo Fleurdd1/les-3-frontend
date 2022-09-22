@@ -6,27 +6,41 @@ Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services")
 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
 Grijs #7A7A7A (voor de service-tegel tekst);
 ////////////////////////*/
-    
-/* ------------------------------- 1. Global Styles -------------------------------- */
-body {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+/* ------------ global --------------- */
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
 }
-/* ------------------------------- 2. Typography ----------------------------------- */
+text {
+    font-family: 'Roboto', sans-serif;
+}
 
-/* ------------------------------- 3. Layout --------------------------------------- */
+/* ------------ navigation-------------*/
 
-/* --------------- 3.1 Reusables ----------------------- */
+
+/* ------------ header -------------*/
+
 header {
     background-color: #4845E4;
 }
-/* --------------- 3.2 Other --------------------------- */
-
-/* ------------------------------- 4. Areas ---------------------------------------- */
-
-/* --------------- 4.1 Header ------------------------- */
 .header-title-inner-container {
     text-align: center;
 }
-/* --------------- 4.2 Introduction ------------------- */
 
-/* ------------------------------- 5. Media Queries -------------------------------- */
+/* ------------ introduction -------------*/
+
+
+/* ------------ projects -------------*/
+
+
+/* ------------ services -------------*/
+
+
+/* ------------ form -------------*/
+
+
+/* ------------ footer -------------*/
+
+
+/* ------------------------------- Media Queries -------------------------------- */
