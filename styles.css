@@ -6,26 +6,74 @@ Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services")
 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
 Grijs #7A7A7A (voor de service-tegel tekst);
 ////////////////////////*/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Merriweather:wght@300;400&family=Roboto:wght@100;300;400;500;700&display=swap');
 
-/* ------------ global --------------- */
-h1, h2, h3 {
+* {
+    box-sizing: border-box;
+}
+/* -------------------------- G L O B A L ------------------------ */
+h1 {
     font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: Merriweather Sans, sans-serif;
+    font-weight: 300;
 }
 text {
     font-family: 'Roboto', sans-serif;
 }
 
-/* ------------ navigation-------------*/
+button {
+    background-color: #ED4385;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 20px 32px;
+    margin: 4px 2px;
+    display: inline-block;
+    cursor: pointer;
+}
 
-
-/* ------------ header -------------*/
+button:hover {
+    background-color: white;
+    color: #ED4385;
+}
+/* ----------------------------- A R E A S -------------------------*/
+/* ------------ header/nav -------------*/
 
 header {
-    background-color: #4845E4;
+    background: linear-gradient(145deg, rgba(72,69,228,1) 0%, rgba(87,34,205,1) 100%);
+    width: 100%;
+    border: solid yellow;
+}
+
+nav {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border: solid orange;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:solid pink;
 }
 .header-title-inner-container {
     text-align: center;
+    color: white;
+    border: solid lawngreen;
 }
 
 /* ------------ introduction -------------*/
