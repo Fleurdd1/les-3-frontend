@@ -6,7 +6,7 @@ Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services")
 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
 Grijs #7A7A7A (voor de service-tegel tekst);
 ////////////////////////*/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Merriweather:wght@300;400&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@200;300&family=Merriweather:wght@300;400&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -24,7 +24,8 @@ h1 {
 
 h3 {
     font-family: Merriweather Sans, Verdana, sans-serif;
-    font-weight: 300;
+    font-weight: 200;
+    text-align: center;
 }
 
 button {
@@ -33,13 +34,13 @@ button {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    font-size: 12px;
-    border: none;
     border-radius: 50px;
+    border: none;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin: 4px 2px;
-    display: inline-block;
+    margin: 25px;
+    padding: 1px 20px;
     cursor: pointer;
+    /*border: dotted lightseagreen;*/
 }
 
 button:hover {
@@ -51,7 +52,7 @@ button:hover {
 header {
     background: linear-gradient(145deg, rgba(72,69,228,1) 0%, rgba(87,34,205,1) 100%);
     width: 100%;
-    border: solid yellow;
+    /*border: solid yellow;*/
 }
 
 /*nav {*/
@@ -71,6 +72,7 @@ ul {
     padding-right: 40px;
     /*border: solid orchid;*/
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -83,18 +85,16 @@ a {
 }
 
 .header-title-inner-container {
-
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     /*border: solid lawngreen;*/
 }
 
 .squiggle {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    max-height: 60px;
-    max-width: 80px;
-    border: dotted red;
+    margin-top: 60px;
+    /*border: dotted red;*/
 }
 
 /* ------------ introduction -------------*/
