@@ -6,10 +6,11 @@ Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services")
 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
 Grijs #7A7A7A (voor de service-tegel tekst);
 ////////////////////////*/
-git@github.com:Fleurdd1/les-3-frontend.git
     
 /* ------------------------------- 1. Global Styles -------------------------------- */
+body {
 
+}
 /* ------------------------------- 2. Typography ----------------------------------- */
 
 /* ------------------------------- 3. Layout --------------------------------------- */
@@ -23,7 +24,9 @@ header {
 /* ------------------------------- 4. Areas ---------------------------------------- */
 
 /* --------------- 4.1 Header ------------------------- */
-
+.header-title-inner-container {
+    text-align: center;
+}
 /* --------------- 4.2 Introduction ------------------- */
 
 /* ------------------------------- 5. Media Queries -------------------------------- */
