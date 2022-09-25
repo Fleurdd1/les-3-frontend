@@ -24,6 +24,7 @@ h1 {
 
 h2 {
     font-family: 'Merriweather', Georgia, serif;
+    font-weight: 300;
 }
 
 h3 {
@@ -91,6 +92,7 @@ ul {
 .header-title-inner-container {
     color: white;
     display: flex;
+    flex-basis: 50%;
     flex-direction: column;
     align-items: center;
     /*border: solid lawngreen;*/
@@ -103,7 +105,22 @@ ul {
 
 /* ------------ introduction -------------*/
 
+.section-hello-outer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid yellow;
+}
 
+.section-hello-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 60%;
+    padding: 40px;
+    /*margin: 40px;*/
+    border: dotted deeppink;
+}
 /* ------------ projects -------------*/
 
 
