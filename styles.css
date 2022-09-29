@@ -6,24 +6,167 @@ Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services")
 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
 Grijs #7A7A7A (voor de service-tegel tekst);
 ////////////////////////*/
-git@github.com:Fleurdd1/les-3-frontend.git
-    
-/* ------------------------------- 1. Global Styles -------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@200;300&family=Merriweather:wght@300;400&family=Roboto:wght@100;300;400;500;700&display=swap');
 
-/* ------------------------------- 2. Typography ----------------------------------- */
-
-/* ------------------------------- 3. Layout --------------------------------------- */
-
-/* --------------- 3.1 Reusables ----------------------- */
-header {
-    background-color: #4845E4;
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-/* --------------- 3.2 Other --------------------------- */
 
-/* ------------------------------- 4. Areas ---------------------------------------- */
+/* -------------------------- G L O B A L ------------------------ */
 
-/* --------------- 4.1 Header ------------------------- */
+h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-weight: 400;
+    padding: 60px 20% 20px 20%;
+    text-align: center;
+}
 
-/* --------------- 4.2 Introduction ------------------- */
+h2 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-weight: bold;
+    /*font-style: initial;*/
+    /*font-size: small;*/
+    text-align: center;
+    padding-top: 40px;
+    color: #5722CD;
+}
 
-/* ------------------------------- 5. Media Queries -------------------------------- */
+h3 {
+    font-family: Merriweather Sans, Verdana, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+.small-text {
+    font-family: Roboto, Verdana, sans-serif;
+    /*font-weight: bold;*/
+    font-size: small;
+    padding: 50px;
+}
+
+button {
+    background-color: #ED4385;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 25px;
+    padding: 1px 20px;
+    cursor: pointer;
+    /*border: dotted lightseagreen;*/
+}
+
+button:hover {
+    background-color: rgba(237, 67, 133, 0.5);
+}
+
+/* ----------------------------- A R E A S -------------------------*/
+/* ------------ header/nav -------------*/
+
+header {
+    background: linear-gradient(145deg, rgba(72,69,228,1) 0%, rgba(87,34,205,1) 100%);
+    width: 100%;
+    /*border: solid yellow;*/
+}
+
+/*nav {*/
+/*    color: white;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: flex-end;*/
+/*    border: solid orange;*/
+/*}*/
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-right: 40px;
+    /*border: solid orchid;*/
+}
+
+.a-nav {
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    /*border: dotted deepskyblue;*/
+}
+
+.header-title-inner-container {
+    color: white;
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
+    align-items: center;
+    /*border: solid lawngreen;*/
+}
+
+.squiggle {
+    margin-top: 60px;
+    /*border: dotted red;*/
+}
+
+/* ------------ introduction -------------*/
+
+.section-hello-outer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*border: solid yellow;*/
+}
+
+.section-hello-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 60%;
+    /*border: dotted deeppink;*/
+}
+
+/* ------------ projects -------------*/
+
+
+
+/* ------------ services -------------*/
+
+
+/* ------------ form -------------*/
+.section-form-outer-container {
+    background: linear-gradient(145deg, rgba(72, 69, 228, 1) 0%, rgba(87, 34, 205, 1) 100%);
+    width: 100%;
+}
+
+.section-form-inner-container {
+    flex-basis: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    border: solid yellow;
+}
+form {
+}
+
+/* ------------ footer -------------*/
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: 100;
+    padding: 20px
+}
+
+/* ------------------------------- Media Queries -------------------------------- */
