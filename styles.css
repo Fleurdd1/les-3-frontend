@@ -143,7 +143,21 @@ ul {
 
 
 /* ------------ form -------------*/
+.section-form-outer-container {
+    background: linear-gradient(145deg, rgba(72, 69, 228, 1) 0%, rgba(87, 34, 205, 1) 100%);
+    width: 100%;
+}
 
+.section-form-inner-container {
+    flex-basis: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    border: solid yellow;
+}
+form {
+}
 
 /* ------------ footer -------------*/
 footer {
